@@ -5,18 +5,17 @@ public class Main {
 
         //Random nahCislo = new Random();
 
-        RodinnyDom domNovakov = new RodinnyDom();
-        domNovakov.pocetPoschodi = 4;
-        domNovakov.rozloha = 457f;
-        domNovakov.material = "mramor";
-        domNovakov.vypocetCenyDomu(300, "Novakovi");
+        RodinnyDom domNovakov = new RodinnyDom(4, "mramor", 457f);
+        float cenaPrvehoDomu = domNovakov.vypocetCenyDomu(300, "Novakovi");
 
 
-        RodinnyDom domZajacov = new RodinnyDom();
-        domZajacov.rozloha = 646f;
-        domZajacov.pocetPoschodi = 3;
-        domZajacov.vypocetCenyDomu(250, "Zajacovi");
+        RodinnyDom domZajacov = new RodinnyDom(3, "drevo", 646f);
+        float cenaDruhehoDomu = domZajacov.vypocetCenyDomu(250, "Zajacovi");
 
+
+
+
+        System.out.println(cenaPrvehoDomu + cenaDruhehoDomu);
 
 
     }
