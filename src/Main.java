@@ -15,5 +15,11 @@ public class Main {
         kaufland.vypocetCenyObchodu();
 
         //Miesto pre Zverimex
+        Pes alik = new Pes(4, "labrador", 15, 2);
+        alik.urobZvuk();
+
+        Macka micka = new Macka(4, "perzska", 8, 20);
+        micka.urobZvuk();
+
     }
 }
