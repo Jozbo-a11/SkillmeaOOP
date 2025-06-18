@@ -1,9 +1,6 @@
-public class RodinnyDom {
-    private int pocetPoschodi;
+public class RodinnyDom extends Stavba {
     private String material;
-    private float rozloha;
     private int pocetOkien;
-
 
     RodinnyDom(int pocetPoschodi, String material, float rozloha) {
         this.pocetPoschodi = pocetPoschodi;
@@ -12,10 +9,6 @@ public class RodinnyDom {
     }
 
 
-    public float vypocetCenyDomu(int cenaZaMeter, String menoRodiny){
-        float cena = rozloha * cenaZaMeter * pocetPoschodi;
-        System.out.println(menoRodiny+ " " + cena);
-        return  cena;
-    }
+
 
 }
