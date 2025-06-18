@@ -21,5 +21,11 @@ public class Main {
         Macka micka = new Macka(4, "perzska", 8, 20);
         micka.urobZvuk();
 
+        //Miesto pre banku
+
+        Banka mBank = new Banka(5, 50f, 3.25f, 0.25f);
+        System.out.println(mBank.vypocetSporiacehoUctu());
+
+
     }
 }
