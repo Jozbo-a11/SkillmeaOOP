@@ -23,7 +23,7 @@ public class Main {
 
         //Miesto pre banku
 
-        Banka mBank = new Banka(5, 50f, 3.25f, 0.25f);
+        Banka mBank = new Banka(5, 100f, 3.25f, 0.25f);
         System.out.println(mBank.vypocetSporiacehoUctu());
 
 
